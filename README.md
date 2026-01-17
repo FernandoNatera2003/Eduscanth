@@ -47,7 +47,7 @@ EduScan es una aplicación de escritorio desarrollada en Java con Maven para la 
 A continuación se muestran algunas vistas de la aplicación:
 
 ### Vista de inicio de sesión
-![Inicio de sesión](docs/inicio-sesion.png)
+![Inicio de sesión](doc/Inicio-sesion.png)
 
 ### Panel principal administrativo
 ![Panel administrativo](docs/panel-administrativo.png)
