@@ -46,14 +46,40 @@ EduScan es una aplicación de escritorio desarrollada en Java con Maven para la 
 
 A continuación se muestran algunas vistas de la aplicación:
 
-### Vista de inicio de sesión
+### Vista de Inicio de Sesión
 ![Inicio de sesión](EduScan/doc/Inicio-sesion.png)
 
-### Panel principal administrativo
-![Panel administrativo](docs/panel-administrativo.png)
+### Panel principal Administrativo
+![Panel administrativo](EduScan/doc/Barra_tareas.png)   
 
-### Gestión de alumnos
-![Gestión de alumnos](docs/gestion-alumnos.png)
+### Registro de Profesores
+![Registro de profesores](EduScan/doc/Registro-profesores.png)
+
+### Registro de Materias
+![Registro de materias](EduScan/doc/Registro-materias.png)
+
+### Registro de Laboratorios
+![Registro de laboratorios](EduScan/doc/Registro-laboratorios.png)
+
+### Registro de Grupos
+![Registro de grupos](EduScan/doc/Registro-grupos.png)
+
+### Registro de Carreras
+![Registro de carreras](EduScan/doc/Registro-carreras.png)
+
+### Asignacion de Materias y Grupos
+![Asignacion de materias y grupos](EduScan/doc/Asignacion-materia-grupo.png)
+
+### Creacion Bitacora
+![Creacion de pase de lista](EduScan/doc/Creacion-bitacora.png)
+
+### Registro de Alumnos
+![Registro de Alumnos](EduScan/doc/bitacora-alumnos.png)
+
+
+
+
+
 
 > Coloca tus imágenes en la carpeta `docs/` y reemplaza los nombres de archivo por los correspondientes a tus capturas.
 
