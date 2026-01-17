@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Administrativo.Materia">
+  <grid id="27dc6" binding="Caja" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="30" bottom="30" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="796" height="431"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c8691" class="javax.swing.JLabel" binding="Titulo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Agregar Materia"/>
+        </properties>
+      </component>
+      <component id="aa926" class="javax.swing.JLabel" binding="nombre_label">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Nombre de la Materia"/>
+        </properties>
+      </component>
+      <component id="308f1" class="javax.swing.JTextField" binding="Nombre">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4737097"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="71434" class="javax.swing.JLabel" binding="separador">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e9973" class="javax.swing.JLabel" binding="separador2">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d3195" class="javax.swing.JButton" binding="Agregar">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Agregar Materia"/>
+        </properties>
+      </component>
+      <component id="26e44" class="javax.swing.JLabel" binding="Eliminar_label">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Eliminar Materia"/>
+        </properties>
+      </component>
+      <component id="50b25" class="javax.swing.JLabel" binding="nomeliminar_label">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Nombre de la Materia"/>
+        </properties>
+      </component>
+      <component id="77ce" class="javax.swing.JTextField" binding="NombreEliminar">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4737097"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="89ee4" class="javax.swing.JButton" binding="Eliminar">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Eliminar Materia"/>
+        </properties>
+      </component>
+      <component id="340f6" class="javax.swing.JLabel" binding="separador5">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b9249" class="javax.swing.JLabel" binding="separador6">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9d41d" class="javax.swing.JLabel" binding="sep1">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d63da" class="javax.swing.JLabel" binding="sep2">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ca320" class="javax.swing.JTable" binding="Registros">
+        <constraints>
+          <grid row="2" column="4" row-span="8" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="false"/>
+          <font name="Times New Roman" size="14" style="1"/>
+          <foreground color="-16777216"/>
+          <preferredScrollableViewportSize width="650" height="400"/>
+        </properties>
+      </component>
+      <component id="136e1" class="javax.swing.JLabel" binding="Titulo3">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Lista de Materias"/>
+        </properties>
+      </component>
+      <component id="3487e" class="javax.swing.JButton" binding="actualizarListaButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Actualizar Lista"/>
+        </properties>
+      </component>
+      <component id="e7b00" class="javax.swing.JButton" binding="Regresar">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Regresar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

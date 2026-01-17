@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Administrativo.Tareas">
+  <grid id="27dc6" binding="Caja" layout-manager="GridLayoutManager" row-count="16" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="30" bottom="30" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="517" height="601"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="a9ced" class="javax.swing.JLabel" binding="Tareas_label">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Tareas a Realizar"/>
+        </properties>
+      </component>
+      <vspacer id="b6845">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="5942d" class="javax.swing.JLabel" binding="espacio1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b3fde" class="javax.swing.JLabel" binding="separador2">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="84b91" class="javax.swing.JButton" binding="Laboratorios">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Control de Laboratorios"/>
+        </properties>
+      </component>
+      <component id="d611f" class="javax.swing.JLabel" binding="espacio3">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="899a4" class="javax.swing.JLabel" binding="espacio4">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b8cdd" class="javax.swing.JLabel" binding="espacio5">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fca2f" class="javax.swing.JButton" binding="Salir">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Cerrar Aplicacion"/>
+        </properties>
+      </component>
+      <component id="88c05" class="javax.swing.JButton" binding="Profesores">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Control de Profesores"/>
+        </properties>
+      </component>
+      <component id="f784d" class="javax.swing.JButton" binding="Alumnos">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Control de Alumnos"/>
+        </properties>
+      </component>
+      <component id="1d792" class="javax.swing.JButton" binding="Materias">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Control de Materias"/>
+        </properties>
+      </component>
+      <component id="153c3" class="javax.swing.JLabel" binding="sep">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="647df" class="javax.swing.JLabel" binding="sepn">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="56e9b" class="javax.swing.JButton" binding="Grupo">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Control de Grupos"/>
+        </properties>
+      </component>
+      <component id="8e3df" class="javax.swing.JButton" binding="Carrera">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Control de Carreras"/>
+        </properties>
+      </component>
+      <component id="1ec5" class="javax.swing.JLabel" binding="m">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7ef32" class="javax.swing.JLabel" binding="n">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="866e9" class="javax.swing.JButton" binding="Asignacion">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Asignar Materias y Grupos"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

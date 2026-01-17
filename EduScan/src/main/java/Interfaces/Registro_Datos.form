@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interfaces.Registro_Datos">
+  <grid id="27dc6" binding="Caja" layout-manager="GridLayoutManager" row-count="11" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="30" bottom="30" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="609"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <font name="Times New Roman" size="16" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="23c66" class="javax.swing.JLabel" binding="Titulo_label">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="24" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Llenado de Bitácora"/>
+        </properties>
+      </component>
+      <component id="4b76d" class="javax.swing.JLabel" binding="Asignatura_label">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Asignatura"/>
+        </properties>
+      </component>
+      <component id="3d9b1" class="javax.swing.JLabel" binding="Grupo_label">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Grupo"/>
+        </properties>
+      </component>
+      <component id="7bd06" class="javax.swing.JComboBox" binding="Asignatura">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="940cc" class="javax.swing.JComboBox" binding="Grupo">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="cce12" class="javax.swing.JLabel" binding="Entrada_label">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Hora de entrada"/>
+        </properties>
+      </component>
+      <component id="c531c" class="javax.swing.JLabel" binding="Salida_label">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Hora de salida"/>
+        </properties>
+      </component>
+      <component id="c31dd" class="javax.swing.JComboBox" binding="Entrada">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <editable value="false"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="6ed06" class="javax.swing.JComboBox" binding="Salida">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <model/>
+        </properties>
+      </component>
+      <component id="f56a9" class="javax.swing.JLabel" binding="Laboratorio_label">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Laboratorio"/>
+        </properties>
+      </component>
+      <component id="4960f" class="javax.swing.JLabel" binding="Nopractica_label">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="No.Práctica"/>
+        </properties>
+      </component>
+      <component id="4266a" class="javax.swing.JComboBox" binding="Laboratorio">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="ae31" class="javax.swing.JComboBox" binding="No_practica">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="d52b8" class="javax.swing.JLabel" binding="Nombre_label">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Nombre de la Práctica"/>
+        </properties>
+      </component>
+      <component id="abb8d" class="javax.swing.JTextField" binding="Nombre_Practica">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4737097"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="9fd33" class="javax.swing.JButton" binding="Generar">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Generar Bitácora"/>
+        </properties>
+      </component>
+      <component id="e960" class="javax.swing.JLabel" binding="Logo_label">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Imagenes/Logo.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

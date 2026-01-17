@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Administrativo.Asignacion">
+  <grid id="27dc6" binding="Caja" layout-manager="GridLayoutManager" row-count="18" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="30" bottom="30" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="1236" height="555"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e281e" class="javax.swing.JLabel" binding="Titulo">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Asignación de Materia y Grupo"/>
+        </properties>
+      </component>
+      <component id="5fb73" class="javax.swing.JLabel" binding="sep1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a1e62" class="javax.swing.JLabel" binding="sep2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2973d" class="javax.swing.JLabel" binding="Materia_Label">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Materias"/>
+        </properties>
+      </component>
+      <component id="f7ede" class="javax.swing.JLabel" binding="Grupo_label">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Grupos"/>
+        </properties>
+      </component>
+      <component id="7ed59" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Maestros"/>
+        </properties>
+      </component>
+      <component id="d8afc" class="javax.swing.JButton" binding="Asignacion">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Crear Asignación"/>
+        </properties>
+      </component>
+      <component id="fd45a" class="javax.swing.JComboBox" binding="Materias">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4737097"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="ba475" class="javax.swing.JComboBox" binding="Grupos">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4737097"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="6d97e" class="javax.swing.JComboBox" binding="Maestros">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4737097"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="eca2c" class="javax.swing.JLabel" binding="sep3">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1243f" class="javax.swing.JLabel" binding="sep4">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="39afa" class="javax.swing.JLabel" binding="sep5">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a8c0" class="javax.swing.JLabel" binding="Titulo2">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Eliminar Asignacion de Materia y Grupo"/>
+        </properties>
+      </component>
+      <component id="2bbab" class="javax.swing.JLabel" binding="sep6">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cf5bf" class="javax.swing.JLabel" binding="sep7">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="185de" class="javax.swing.JLabel" binding="Prof_Mat_Gru">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Asignacion al Profesor"/>
+        </properties>
+      </component>
+      <component id="73d5a" class="javax.swing.JComboBox" binding="EMaterias">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4737097"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="d5f05" class="javax.swing.JLabel" binding="sep8">
+        <constraints>
+          <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cd403" class="javax.swing.JButton" binding="EliminarAsignacion">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Eliminar Asignacion"/>
+        </properties>
+      </component>
+      <component id="e0285" class="javax.swing.JLabel" binding="sep9">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e3471" class="javax.swing.JLabel" binding="sep10">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="31f85" class="javax.swing.JLabel" binding="Titulo3">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Lista de Asignaciones"/>
+        </properties>
+      </component>
+      <component id="23bbd" class="javax.swing.JButton" binding="Actualizar">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Actualizar Lista"/>
+        </properties>
+      </component>
+      <component id="a72c4" class="javax.swing.JTable" binding="Registros">
+        <constraints>
+          <grid row="4" column="5" row-span="13" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="450" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="false"/>
+          <font name="Times New Roman" size="14" style="1"/>
+          <foreground color="-16777216"/>
+        </properties>
+      </component>
+      <component id="72a23" class="javax.swing.JButton" binding="Regresar">
+        <constraints>
+          <grid row="17" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15026216"/>
+          <font name="Times New Roman" size="16" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Regresar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
