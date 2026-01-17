@@ -78,11 +78,6 @@ A continuación se muestran algunas vistas de la aplicación:
 
 
 
-
-
-
-> Coloca tus imágenes en la carpeta `docs/` y reemplaza los nombres de archivo por los correspondientes a tus capturas.
-
 ## Créditos
 Desarrollado por Fernando Natera y colaboradores.
 
